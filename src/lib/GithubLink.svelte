@@ -1,11 +1,7 @@
 <script>
 </script>
 
-<a
-	href="https://github.com/gabrielatwell1987/pw-generator"
-	aria-label="github link"
-	target="_blank"
->
+<a href="https://github.com/gabeatwell/pw-generator" aria-label="github link" target="_blank">
 	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
 		<title>Github Icon</title>
 		<path
