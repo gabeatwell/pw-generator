@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	let password = '';
 	let length = 10;
 	let includeUppercase = true;
@@ -40,7 +40,7 @@
 </script>
 
 <div class="wrapper">
-	<img src="/logos/passcraft.svg" alt="" />
+	<img src="/logos/passcraft-serif.svg" alt="" />
 
 	<p class="center">The easiest password generator you'll find!</p>
 
