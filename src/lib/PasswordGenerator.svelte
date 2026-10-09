@@ -84,7 +84,7 @@
 
 <style>
 	.wrapper {
-		background-color: var(--bg);
+		background-color: #9c9c9c;
 		border-radius: 10px;
 		padding: 1rem;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -210,7 +210,7 @@
 			border-radius: 10px;
 
 			& h4 {
-				color: #7c7b7b;
+				color: #ccc;
 				letter-spacing: 3px;
 				font-family: Verdana, Geneva, Tahoma, sans-serif;
 
