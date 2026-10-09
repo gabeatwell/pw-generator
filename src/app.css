@@ -8,4 +8,8 @@
 
 :root {
 	--serif: 'Suez', monospace;
+	--blue: hsl(231, 95%, 29%);
+	--green: hsl(90, 98%, 22%);
+	--bg: #9c9c9c;
+	--fg: #fefefe;
 }

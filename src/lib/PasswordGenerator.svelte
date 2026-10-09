@@ -40,7 +40,7 @@
 </script>
 
 <div class="wrapper">
-	<img src="/logos/passcraft-serif.svg" alt="" />
+	<img src="/logos/passcraft-serif.svg" alt="passcraft logo" />
 
 	<p class="center">The easiest password generator you'll find!</p>
 
@@ -84,7 +84,7 @@
 
 <style>
 	.wrapper {
-		background-color: #ffffff95;
+		background-color: var(--bg);
 		border-radius: 10px;
 		padding: 1rem;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -94,7 +94,7 @@
 
 		& hr {
 			border: none;
-			border-top: 2px solid #4e4e4e;
+			border-top: 2px solid #ccc;
 			margin-inline: auto;
 			width: 100%;
 		}
@@ -107,7 +107,7 @@
 
 		& .center {
 			text-align: center;
-			color: #242424;
+			color: var(--fg);
 		}
 		& label {
 			display: flex;
@@ -120,12 +120,12 @@
 			font-size: 1rem;
 
 			& em {
-				color: #333333;
+				color: var(--fg);
 				font-weight: 500;
 			}
 
 			& h3 {
-				color: #242424;
+				color: var(--fg);
 			}
 
 			&:first-child {
@@ -167,13 +167,12 @@
 
 			&.gen {
 				margin-top: 1.75rem;
-				background-color: hsl(90, 98%, 23%);
+				background-color: hsl(90, 98%, 22%);
 				margin-inline: auto;
 
 				&:hover {
 					background: rgb(231, 231, 231);
 					color: hsl(90, 98%, 25%);
-					border: 1px solid hsl(90, 98%, 25%);
 				}
 			}
 		}
@@ -186,7 +185,6 @@
 			&:hover {
 				background: rgb(231, 231, 231);
 				color: hsl(231, 95%, 34%);
-				border: 1px solid hsl(231, 95%, 34%);
 			}
 		}
 
@@ -199,6 +197,7 @@
 			text-align: center;
 		}
 		& input[type='checkbox'] {
+			accent-color: hsl(231, 95%, 29%);
 			margin-right: 0.5rem;
 			width: clamp(1rem, 1vw, 1.5rem);
 			height: clamp(1rem, 1vw, 1.5rem);
@@ -207,7 +206,7 @@
 		}
 
 		& .generated {
-			border: 2px solid #242424;
+			border: 2px solid var(--fg);
 			border-radius: 10px;
 
 			& h4 {
@@ -224,7 +223,7 @@
 			& p {
 				font-family: Verdana, Geneva, Tahoma, sans-serif;
 				font-size: clamp(1rem, 1.2vw, 1.3rem);
-				color: #111;
+				color: #eee;
 			}
 		}
 
